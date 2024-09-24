@@ -46,7 +46,7 @@ module.exports = {
     footer: 'List any related issues (optional). E.g., #31, #34:\n',
     confirmCommit: 'Are you sure you want to proceed with the commit?(y/n)'
   },
-  skipQuestions: ['body', 'footer'], //跳过步骤
+  //skipQuestions: ['body', 'footer'], //跳过步骤
   subjectLimit: 72 //默认长度为72
   // footerPrefix: 'Related issues:',
 }
