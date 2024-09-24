@@ -3,6 +3,9 @@
 First, run the development server:
 
     ```bash
+    #husky
+    bun prepare
+
     npm run dev
     # or
     yarn dev
