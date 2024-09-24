@@ -3,6 +3,9 @@
 First, run the development server:
 
     ```bash
+    #husky
+    bun prepare
+
     npm run dev
     # or
     yarn dev
@@ -12,6 +15,9 @@ First, run the development server:
     bun dev
     ```
 
+- Master branch -> Next14 React18
+- Develop branch -> Next15 React19
 - DarkMode
 - ShadCN-UI
+- Lucide-react
 - FrondEnd Stack(prettier eslint-airbnb husky commitizen cz lint-staged tsconfig.json)
