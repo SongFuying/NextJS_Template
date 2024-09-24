@@ -12,6 +12,9 @@ First, run the development server:
     bun dev
     ```
 
+- Master branch -> Next14 React18
+- Develop branch -> Next15 React19
+
 - DarkMode
 - ShadCN-UI
 - FrondEnd Stack(prettier eslint-airbnb husky commitizen cz lint-staged tsconfig.json)
