@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "prepare": "husky install",
+    "prepare": "husky install ",
+    "setup-husky": "husky add .husky/pre-commit \"npx eslint --ext .tsx,.js src\" && husky add .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"'",
     "commit": "cz"
   },
   "dependencies": {
