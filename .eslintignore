@@ -4,6 +4,9 @@
 *.config.cjs
 *.css
 *.ico
+src/components/ui/*.tsx
+src/hooks/*.ts
+public/*
 
 # Ignore built files and directories
 dist/
@@ -11,5 +14,3 @@ build/
 
 # Ignore node_modules
 node_modules/
-
-
