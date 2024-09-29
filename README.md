@@ -5,6 +5,9 @@ First, run the development server:
     ```bash
     #husky
     bun prepare
+    #setup husky
+    bun setup-husky
+
 
     npm run dev
     # or
